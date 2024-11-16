@@ -1,46 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product List</title>
+    <h1>Product List</h1>
+    <ul id='fruites'>
+        <li class='fruite'>Apple</li>
+        <li class='fruite'>Banana</li>
+        <li class='fruite'>Orange</li>
+    </ul>
     <style>
-        /* Center the heading on the page */
+    
         h1 {
             text-align: center;
             margin-top: 50px;
         }
 
-        /* Style the unordered list */
-        ul {
-            list-style-type: none; /* Remove default bullet points */
+        #fruites {
+            list-style-type: none;
             padding: 0;
             margin: 20px auto;
-            width: 300px; /* Set a fixed width for the list */
-            border: 1px solid #000; /* Add a 1px border */
-            background-color: #f0f8ff; /* Light background color */
+            width: 300px;
+            border: 1px solid #000; 
+            background-color: #f0f8ff;
         }
-
-        /* Style for the list items */
-        ul li {
-            font-weight: bold; /* Make the text bold */
-            color: green; /* Set text color to green */
+        .fruite {
+            font-weight: bold;
+            color: green;
             padding: 10px;
-            border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+            border-bottom: 1px solid #ddd;
         }
 
-        /* Remove the last item's bottom border */
         ul li:last-child {
             border-bottom: none;
         }
     </style>
-</head>
-<body>
-    <h1>Product List</h1>
-    <ul>
-        <li>Apple</li>
-        <li>Banana</li>
-        <li>Orange</li>
-    </ul>
-</body>
-</html>
+
+
+
